@@ -11,11 +11,13 @@ body {
 	background-color: #fdfdfd;
 	margin: 0;
 	position:relative;
+	 
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	color: #333;
+	flex-flow: row wrap;
 }
 a {
 	color: orange;
@@ -272,4 +274,9 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* Responsivity - flexbox */
+.flexbox {
+	display: flex;
 }
