@@ -13,18 +13,18 @@
 <body>
   <header>
     <!-- TODO: add anchors Skip link tabbing -->
-    <a href="#maincontent" class="skip-link"> Skip the map</a>
+    <a href="#filters" class="skip-link" tabindex="0"> Skip the map</a>
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container" tabindex="-1">
       <div id="map" ></div>
     </section>
     <section>
-      <div class="filter-options">
+      <div class="filter-options" id="filters" tabindex="0">
         <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
@@ -33,7 +33,7 @@
           <option value="all">All Cuisines</option>
         </select>
       </div>
-      <ul id="restaurants-list" class="flexbox"></ul>
+      <ul id="restaurants-list" tabindex="0" class="flexbox"></ul>
     </section>
   </main>
   <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
