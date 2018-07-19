@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -16,13 +16,15 @@
   <!-- Beginning header -->
   <header>
     <!-- TODO: add anchors Skip link tabbing -->
-  <a href="#restaurant-name" class="skip-link" tabindex="0"> Skip the map</a>
+
     <!-- Beginning nav -->
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
+
+    <a href="#restaurant-name" class="skip-link" tabindex="0"> Skip the map</a>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" tabindex="0">
+    <ul id="breadcrumb" tabindex="0" role="navigation">
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -33,7 +35,7 @@
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container" tabindex="-1">
+    <section id="map-container" role="presentation" aria-hidden="true" tabindex="-1">
       <div id="map"></div>
     </section>
     <!-- End map -->
