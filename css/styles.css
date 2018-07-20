@@ -203,6 +203,7 @@ h3 {
   padding: 0 30px 25px;
   text-align: left;
   width: 270px;
+  position: relative;
 }
 
 #restaurants-list .restaurant-img {
@@ -213,7 +214,7 @@ h3 {
   min-height: 248px;
    */
   object-fit: contain;
-  margin: 5px;
+  margin: 10px 0;
   max-width: 100%;
   max-height: 100%;
   /* width: auto;
@@ -241,7 +242,7 @@ h3 {
   font-size: 11pt;
 }
 
-/* #restaurants-list li a {
+#restaurants-list li a {
   background-color: #d06900;
   border-bottom: 3px solid #eee;
   display: inline-block;
@@ -252,13 +253,15 @@ h3 {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-} */
+  /* position: absolute;
+  bottom: 10px; */
+}
 
-button {
+/* button {
   background-color: #d06900;
   color: white;
   border: 3px solid #eee;
-  display: inline-block;
+  display: block;
   font-size: 1.2em;
   font-weight: bold;
   margin: 15px 0 0;
@@ -266,7 +269,9 @@ button {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-}
+  position: absolute;
+  bottom: 10px;
+} */
 
 button:hover {
   background-color: #ffb468;
