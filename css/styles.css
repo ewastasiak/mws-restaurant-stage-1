@@ -178,6 +178,11 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
+
+h3 {
+  text-transform: uppercase;
+}
+
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
