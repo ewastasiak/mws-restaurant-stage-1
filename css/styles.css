@@ -255,6 +255,12 @@ h3 {
 }
 
 /* ====================== Restaurant Details ====================== */
+h4 {
+  font-size: 1.2em;
+  margin: 10px;
+  clear: both;
+}
+
 .inside header {
   position: fixed;
   top: 0;
