@@ -1,5 +1,8 @@
 # FEND Nanodegree Project 6
 ---
+
+Project's boilerplate code: https://github.com/udacity/mws-restaurant-stage-1
+
 ## Project Overview: Stage 1
 
 ### What do I do from here?
@@ -19,3 +22,13 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 ### Note about ES6
 
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+
+---
+
+# About Udacity and Google Scholarships
+
+[Udacity blog entry announcing Google Developer Challenge 2017/2018](https://blog.udacity.com/2017/09/announcing-60000-challenge-scholarships-udacity-google.html)
+
+[Information on all Google Scholarship tracks](https://www.udacity.com/google-scholarships)
+
+**[Visit Udacity scholarships page](https://www.udacity.com/scholarships)**
